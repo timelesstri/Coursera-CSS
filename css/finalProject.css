@@ -1,0 +1,165 @@
+body { 
+	font-family: Helvetica, 'Trebuchet MS', Verdana, Tahoma, Arial;
+	margin: 5px; 
+}
+
+.skip-link {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.current a {
+	background-color: yellow;
+}
+
+/*HEADER*/
+
+header { 
+	text-align: center; 
+	background-color: lightgrey; 
+	font-size: 25px;
+	padding: 20px 5px;
+	margin-bottom: 25px;
+} 
+
+header img {
+    width: 25%;
+    height: auto;
+    margin: 20px auto;
+    border: 4px solid #444;
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/*IMAGES*/
+
+img { 
+    width: 25%;
+    height: auto;
+    border: 15px solid black;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+/*PARAGRAPHS*/
+
+p { 
+	font-variant:small-caps;
+	line-height: 1.5; 
+	margin: 5px 0 20px 0;
+} 
+
+/*NAVIGATION*/
+
+nav { 
+	display:inline-block;
+	width: 80%;
+	background-color: lightblue; 
+	padding: 0; 
+} 
+
+nav li {
+	margin: 10px 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+/*MAIN CONTENT*/
+
+main { 
+	font-size: 30px; 
+	background-color: lightblue; 
+}
+
+/*GRID*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 4px solid #444;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/*FLEX*/
+
+.flex {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background-color:lightgray;
+    align-items: flex-start;
+}
+
+.flex img {
+    width: 18%;
+    height: auto;
+    border: 4px solid #444;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.flex img:nth-child(1),
+.flex img:nth-child(3) {
+    border-radius: 50%;
+}
+
+/*FOOTER*/
+
+footer { 
+	background-color: lightgray; 
+	font-size: 15px; 
+}
+
+/*HEADING*/
+
+h1,h2 { 
+	text-align: center; 
+	margin: 0;
+	font-family: cursive;
+	color:chocolate;
+} 
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+    font-weight: bold;
+}

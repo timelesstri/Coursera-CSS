@@ -29,10 +29,21 @@ p{
     text-align: center;
 }
 
-div{
+/*div{
     display: inline-block; 
-    /* Try out block, none, and inline-block as well. */
-}
+    border: 8px solid black;
+}*/
+
+/*div img{
+    border: 8px solid black;
+}*/
+
+/*div:nth-child(odd){
+    border: 8px solid black;*/
+
+/*div:nth-child(odd) img{
+    border: 8px solid black;
+}*/
 
 p{
         text-align: center;
